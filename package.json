@@ -9,7 +9,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "serverless-s3-sync": "^1.14.4"
+    "serverless-s3-sync": "^1.14.4",
+    "survey-react": "^1.7.25"
   },
   "scripts": {
     "start": "react-scripts start",

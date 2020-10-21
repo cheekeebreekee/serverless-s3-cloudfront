@@ -1,0 +1,17 @@
+service: user-registration-service
+
+provider:
+  name: aws
+  stage: dev
+  region: us-east-1
+  profile: ApiGatewayLambdaServiceUser
+
+functions:
+  userSubmission:
+    handler: api/handler.submit
+    memorySize: 128
+    description: Submit user information and starts scheduling appointment process.
+    events:
+      - http: 
+          path: users
+          method: post

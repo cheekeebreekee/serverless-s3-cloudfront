@@ -100,3 +100,6 @@ custom:
       localDir: build/
   ## TODO: try to use this variable instead direct bucket name
   s3Bucket: serverless-static-bucket
+
+
+

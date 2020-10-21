@@ -2,6 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import GetStartedQuestions from './components/GetStartedQuestions'
+
 function App() {
   return (
     <div className="App">
@@ -10,6 +12,7 @@ function App() {
         <p>
           Hello World!
         </p>
+        <GetStartedQuestions />
         <a
           className="App-link"
           href="https://reactjs.org"
